@@ -9,6 +9,8 @@ My experiments are realized [here](eval/)
 
 Report is here [report](report/results_lora_ft.md)
 
+Report notebook is [here](report/report.ipynb)
+
 
 
 # ddpo-pytorch
