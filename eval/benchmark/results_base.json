@@ -1,0 +1,473 @@
+{
+  "config": {
+    "pretrained": "runwayml/stable-diffusion-v1-5",
+    "revision": "main",
+    "lora_path": "",
+    "prompts_file": "/data/ayagolubkova/rl_project/ddpo-pytorch/eval/benchmark/prompts/laion_eval_prompts.txt",
+    "max_prompts": null,
+    "output_json": "eval/benchmark/results_base.json",
+    "save_images_dir": "",
+    "seed": 42,
+    "num_inference_steps": 50,
+    "guidance_scale": 5.0,
+    "height": 512,
+    "width": 512,
+    "batch_size": 4,
+    "mixed_precision": "fp16",
+    "skip_aesthetic": false,
+    "skip_clip": false,
+    "jpeg_metrics": true,
+    "device": ""
+  },
+  "num_prompts": 87,
+  "device": "cuda",
+  "summary": {
+    "clip_score": {
+      "mean": 0.26936725604123085,
+      "std": 0.027921906123559763,
+      "n": 87
+    },
+    "aesthetic": {
+      "mean": 5.635402575306509,
+      "std": 0.3609266625184481,
+      "n": 87
+    }
+  },
+  "per_prompt": [
+    {
+      "prompt": "a red bicycle parked next to a brick wall",
+      "clip_score": 0.2672281265258789,
+      "aesthetic": 5.4527153968811035
+    },
+    {
+      "prompt": "a golden retriever running on a sunny beach",
+      "clip_score": 0.30948662757873535,
+      "aesthetic": 5.839845657348633
+    },
+    {
+      "prompt": "a steaming cup of coffee on a wooden table",
+      "clip_score": 0.2503189444541931,
+      "aesthetic": 5.334498882293701
+    },
+    {
+      "prompt": "mountain landscape at sunset with purple clouds",
+      "clip_score": 0.265397846698761,
+      "aesthetic": 6.112555027008057
+    },
+    {
+      "prompt": "portrait of an elderly woman knitting, soft window light",
+      "clip_score": 0.3024006485939026,
+      "aesthetic": 5.435693264007568
+    },
+    {
+      "prompt": "a vintage yellow taxi in rainy new york street",
+      "clip_score": 0.31806010007858276,
+      "aesthetic": 6.004155158996582
+    },
+    {
+      "prompt": "macro photo of a dewdrop on a green leaf",
+      "clip_score": 0.2767358124256134,
+      "aesthetic": 5.74818229675293
+    },
+    {
+      "prompt": "a spaceship landing in a desert at dusk",
+      "clip_score": 0.20956024527549744,
+      "aesthetic": 6.03257417678833
+    },
+    {
+      "prompt": "watercolor painting of a cottage by a lake",
+      "clip_score": 0.2273470163345337,
+      "aesthetic": 6.383591651916504
+    },
+    {
+      "prompt": "a bowl of ramen with chopsticks, top-down view",
+      "clip_score": 0.2557779550552368,
+      "aesthetic": 5.994762420654297
+    },
+    {
+      "prompt": "children playing soccer in a muddy field",
+      "clip_score": 0.32614731788635254,
+      "aesthetic": 5.592710971832275
+    },
+    {
+      "prompt": "an astronaut riding a horse in outer space",
+      "clip_score": 0.30791527032852173,
+      "aesthetic": 5.408624649047852
+    },
+    {
+      "prompt": "a lighthouse on a rocky coast during a storm",
+      "clip_score": 0.2785951495170593,
+      "aesthetic": 6.251861095428467
+    },
+    {
+      "prompt": "fresh strawberries in a white ceramic bowl",
+      "clip_score": 0.23667453229427338,
+      "aesthetic": 5.503423690795898
+    },
+    {
+      "prompt": "industrial warehouse with dramatic side lighting",
+      "clip_score": 0.23461143672466278,
+      "aesthetic": 5.521674156188965
+    },
+    {
+      "prompt": "a calico cat sleeping on a laptop keyboard",
+      "clip_score": 0.2710956335067749,
+      "aesthetic": 5.462860107421875
+    },
+    {
+      "prompt": "cherry blossoms framing a japanese temple",
+      "clip_score": 0.2681901454925537,
+      "aesthetic": 6.178257942199707
+    },
+    {
+      "prompt": "a steam locomotive crossing a stone bridge",
+      "clip_score": 0.3349829316139221,
+      "aesthetic": 5.952239036560059
+    },
+    {
+      "prompt": "minimalist interior with white walls and a single chair",
+      "clip_score": 0.28154298663139343,
+      "aesthetic": 5.531150817871094
+    },
+    {
+      "prompt": "a chef plating food in a busy restaurant kitchen",
+      "clip_score": 0.26299864053726196,
+      "aesthetic": 5.896706581115723
+    },
+    {
+      "prompt": "hot air balloons over cappadocia at sunrise",
+      "clip_score": 0.24335844814777374,
+      "aesthetic": 5.7661309242248535
+    },
+    {
+      "prompt": "a cracked smartphone screen on concrete",
+      "clip_score": 0.24477790296077728,
+      "aesthetic": 5.013518333435059
+    },
+    {
+      "prompt": "robot assembling car parts in a factory",
+      "clip_score": 0.21999695897102356,
+      "aesthetic": 5.3353986740112305
+    },
+    {
+      "prompt": "a fox in the snow, wildlife photography",
+      "clip_score": 0.28279197216033936,
+      "aesthetic": 6.237028121948242
+    },
+    {
+      "prompt": "colorful graffiti on a brick underpass",
+      "clip_score": 0.24906665086746216,
+      "aesthetic": 5.478872299194336
+    },
+    {
+      "prompt": "a sailboat on calm blue water, drone shot",
+      "clip_score": 0.25981584191322327,
+      "aesthetic": 5.238876819610596
+    },
+    {
+      "prompt": "stacks of old hardcover books in a library",
+      "clip_score": 0.23253870010375977,
+      "aesthetic": 5.1133832931518555
+    },
+    {
+      "prompt": "a crocodile partially submerged in murky water",
+      "clip_score": 0.2978112995624542,
+      "aesthetic": 4.841495990753174
+    },
+    {
+      "prompt": "christmas tree in a cozy living room with gifts",
+      "clip_score": 0.26961469650268555,
+      "aesthetic": 5.112122058868408
+    },
+    {
+      "prompt": "a drone view of a winding river through forest",
+      "clip_score": 0.28041911125183105,
+      "aesthetic": 5.971292972564697
+    },
+    {
+      "prompt": "neon signs reflecting in a puddle at night",
+      "clip_score": 0.27814334630966187,
+      "aesthetic": 5.509992599487305
+    },
+    {
+      "prompt": "a bee on a sunflower, shallow depth of field",
+      "clip_score": 0.28041598200798035,
+      "aesthetic": 5.021524429321289
+    },
+    {
+      "prompt": "ancient roman columns under a clear sky",
+      "clip_score": 0.24113790690898895,
+      "aesthetic": 5.755861282348633
+    },
+    {
+      "prompt": "a toddler laughing with cake frosting on face",
+      "clip_score": 0.28593698143959045,
+      "aesthetic": 5.378299713134766
+    },
+    {
+      "prompt": "rusty anchor half buried in sand",
+      "clip_score": 0.2753269672393799,
+      "aesthetic": 5.41766357421875
+    },
+    {
+      "prompt": "a violin and bow resting on velvet cloth",
+      "clip_score": 0.30064818263053894,
+      "aesthetic": 5.215025901794434
+    },
+    {
+      "prompt": "storm rolling over wheat fields",
+      "clip_score": 0.28260964155197144,
+      "aesthetic": 6.130615234375
+    },
+    {
+      "prompt": "a penguin sliding on ice",
+      "clip_score": 0.274738609790802,
+      "aesthetic": 5.4224700927734375
+    },
+    {
+      "prompt": "modern glass skyscrapers reflecting clouds",
+      "clip_score": 0.2132960855960846,
+      "aesthetic": 5.51894474029541
+    },
+    {
+      "prompt": "a basket of farmers market vegetables",
+      "clip_score": 0.25391992926597595,
+      "aesthetic": 5.666288375854492
+    },
+    {
+      "prompt": "medieval castle on a hill in fog",
+      "clip_score": 0.296500027179718,
+      "aesthetic": 6.1638617515563965
+    },
+    {
+      "prompt": "a jellyfish glowing in dark aquarium water",
+      "clip_score": 0.2663586139678955,
+      "aesthetic": 5.771158218383789
+    },
+    {
+      "prompt": "surfboard leaning against a palm tree",
+      "clip_score": 0.24609461426734924,
+      "aesthetic": 5.812614440917969
+    },
+    {
+      "prompt": "a barista pouring latte art",
+      "clip_score": 0.23912930488586426,
+      "aesthetic": 5.611247539520264
+    },
+    {
+      "prompt": "aerial view of a city intersection at night",
+      "clip_score": 0.20725077390670776,
+      "aesthetic": 5.689404010772705
+    },
+    {
+      "prompt": "a wooden canoe on a misty lake at dawn",
+      "clip_score": 0.2992929518222809,
+      "aesthetic": 6.291078090667725
+    },
+    {
+      "prompt": "a pile of autumn leaves with boots stepping in",
+      "clip_score": 0.25802159309387207,
+      "aesthetic": 5.424015998840332
+    },
+    {
+      "prompt": "crystal chandelier in an empty ballroom",
+      "clip_score": 0.26705804467201233,
+      "aesthetic": 5.358572483062744
+    },
+    {
+      "prompt": "a hedgehog curled in moss",
+      "clip_score": 0.23825450241565704,
+      "aesthetic": 5.72324275970459
+    },
+    {
+      "prompt": "futuristic motorcycle concept design render",
+      "clip_score": 0.3284464478492737,
+      "aesthetic": 5.362093925476074
+    },
+    {
+      "prompt": "a farmer on a tractor in golden hour",
+      "clip_score": 0.263775497674942,
+      "aesthetic": 5.884424209594727
+    },
+    {
+      "prompt": "stained glass window in a gothic cathedral",
+      "clip_score": 0.2469223141670227,
+      "aesthetic": 5.482187271118164
+    },
+    {
+      "prompt": "a stack of vinyl records next to a turntable",
+      "clip_score": 0.2597291171550751,
+      "aesthetic": 5.4433746337890625
+    },
+    {
+      "prompt": "polar bear with cub on sea ice",
+      "clip_score": 0.2846500277519226,
+      "aesthetic": 6.152675151824951
+    },
+    {
+      "prompt": "a baker shaping dough, flour in the air",
+      "clip_score": 0.26415491104125977,
+      "aesthetic": 5.412474155426025
+    },
+    {
+      "prompt": "tropical fish in a coral reef scene",
+      "clip_score": 0.29900529980659485,
+      "aesthetic": 5.365484237670898
+    },
+    {
+      "prompt": "winding cobblestone alley in a european village",
+      "clip_score": 0.27623552083969116,
+      "aesthetic": 6.341713905334473
+    },
+    {
+      "prompt": "a concert crowd with raised hands and stage lights",
+      "clip_score": 0.2677417993545532,
+      "aesthetic": 5.987717151641846
+    },
+    {
+      "prompt": "silver earrings on black velvet display",
+      "clip_score": 0.3059960901737213,
+      "aesthetic": 5.328886985778809
+    },
+    {
+      "prompt": "a campfire with sparks against starry sky",
+      "clip_score": 0.2581145763397217,
+      "aesthetic": 6.0692291259765625
+    },
+    {
+      "prompt": "heavy rain on a car windshield, bokeh city lights",
+      "clip_score": 0.2732308804988861,
+      "aesthetic": 5.53302001953125
+    },
+    {
+      "prompt": "a kangaroo in australian outback",
+      "clip_score": 0.27347511053085327,
+      "aesthetic": 4.980904579162598
+    },
+    {
+      "prompt": "origami cranes scattered on pastel paper",
+      "clip_score": 0.26467204093933105,
+      "aesthetic": 5.295104026794434
+    },
+    {
+      "prompt": "a windmill in a tulip field",
+      "clip_score": 0.27748048305511475,
+      "aesthetic": 5.764371871948242
+    },
+    {
+      "prompt": "surgeon team in a bright operating room",
+      "clip_score": 0.2764257788658142,
+      "aesthetic": 5.550860404968262
+    },
+    {
+      "prompt": "a peacock with feathers fanned",
+      "clip_score": 0.28574642539024353,
+      "aesthetic": 5.557886123657227
+    },
+    {
+      "prompt": "rustic pizza fresh from a wood-fired oven",
+      "clip_score": 0.2349899262189865,
+      "aesthetic": 5.971552848815918
+    },
+    {
+      "prompt": "northern lights over snowy mountains",
+      "clip_score": 0.20527216792106628,
+      "aesthetic": 5.406891822814941
+    },
+    {
+      "prompt": "a locksmith repairing an antique lock",
+      "clip_score": 0.2916148900985718,
+      "aesthetic": 5.289060115814209
+    },
+    {
+      "prompt": "paper lanterns floating on a river festival",
+      "clip_score": 0.3106480836868286,
+      "aesthetic": 6.183854103088379
+    },
+    {
+      "prompt": "a great white shark breaching the ocean surface",
+      "clip_score": 0.272625207901001,
+      "aesthetic": 5.890152931213379
+    },
+    {
+      "prompt": "dusty dirt road through a high desert",
+      "clip_score": 0.2625513970851898,
+      "aesthetic": 5.031059265136719
+    },
+    {
+      "prompt": "a ballerina tying pointe shoes backstage",
+      "clip_score": 0.26168152689933777,
+      "aesthetic": 5.421169281005859
+    },
+    {
+      "prompt": "overhead flat lay of art supplies and sketches",
+      "clip_score": 0.2565276026725769,
+      "aesthetic": 5.589080810546875
+    },
+    {
+      "prompt": "a steamy street food stall at night market",
+      "clip_score": 0.28329187631607056,
+      "aesthetic": 6.271868705749512
+    },
+    {
+      "prompt": "owl perched on a barn beam",
+      "clip_score": 0.2496846616268158,
+      "aesthetic": 5.584990501403809
+    },
+    {
+      "prompt": "limestone cliffs and turquoise water",
+      "clip_score": 0.23661911487579346,
+      "aesthetic": 5.996462821960449
+    },
+    {
+      "prompt": "a journalist typing on a vintage typewriter",
+      "clip_score": 0.26612406969070435,
+      "aesthetic": 4.975856304168701
+    },
+    {
+      "prompt": "roller coaster silhouette at sunset amusement park",
+      "clip_score": 0.2485145777463913,
+      "aesthetic": 5.6409711837768555
+    },
+    {
+      "prompt": "a mason jar of lemonade with mint and ice",
+      "clip_score": 0.31644299626350403,
+      "aesthetic": 5.729925155639648
+    },
+    {
+      "prompt": "aerial agricultural patterns from plane window",
+      "clip_score": 0.25853431224823,
+      "aesthetic": 5.400158882141113
+    },
+    {
+      "prompt": "a welder with sparks in a workshop",
+      "clip_score": 0.2654651701450348,
+      "aesthetic": 5.76422119140625
+    },
+    {
+      "prompt": "white dunes under blue sky",
+      "clip_score": 0.26624786853790283,
+      "aesthetic": 5.176300048828125
+    },
+    {
+      "prompt": "a grandfather clock in a dim hallway",
+      "clip_score": 0.32352355122566223,
+      "aesthetic": 5.6086039543151855
+    },
+    {
+      "prompt": "colorful macarons in a pastry shop window",
+      "clip_score": 0.26919764280319214,
+      "aesthetic": 5.8087897300720215
+    },
+    {
+      "prompt": "zebra herd at a watering hole",
+      "clip_score": 0.31626567244529724,
+      "aesthetic": 6.0678019523620605
+    },
+    {
+      "prompt": "a kayak navigating mild rapids",
+      "clip_score": 0.26393362879753113,
+      "aesthetic": 5.330760955810547
+    }
+  ]
+}
