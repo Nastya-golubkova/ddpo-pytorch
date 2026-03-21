@@ -1,11 +1,12 @@
-## Credits / License
+Credits / License
 
 This project uses code from [kvablack/ddpo-pytorch.git](https://github.com/kvablack/ddpo-pytorch.git) licensed under MIT License.
 
 
 # My Experiments
 
-My experiments are realized in [eval/](eval/)
+My experiments are realized [here](eval/)
+
 Report is here [report](report/results_lora_ft.md)
 
 
